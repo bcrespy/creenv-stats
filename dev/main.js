@@ -1,6 +1,6 @@
 import Stats from '../lib/index';
 
-let stats = new Stats();
+let stats = new Stats(Stats.POSITION.BOTTOM_LEFT);
 
 
 let cvs = document.createElement("canvas");
